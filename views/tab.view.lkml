@@ -17,10 +17,6 @@ view: tab {
   dimension: tabs {
     type: string
     sql: ${TABLE}.tabs ;;
-    link: {
-      label: "Open"
-      url: "dashboards/{{tabs.id}}"
-    }
   }
 
   measure: count {
