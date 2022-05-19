@@ -2,6 +2,7 @@ connection: "bv185086_report"
 
 # include all the views
 include: "/views/**/*.view"
+include: "/**/*.dashboard"
 
 datagroup: custom_tab_vs_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
